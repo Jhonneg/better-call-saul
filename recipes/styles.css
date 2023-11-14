@@ -1,8 +1,24 @@
 body {
-    background-color: lightcoral;
-    margin: auto;
+    background-color: rgb(253, 189, 189);
 }
 head {
     color: navajowhite;
     margin: auto;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.div1{ 
+    border: 20px;
+    font-size: medium;
+    text-align: center;
+
+}
+.div1 button{
+    
+}
+.div1 img{
+    width: 40%;
 }
