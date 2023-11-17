@@ -6,12 +6,16 @@ button:hover {
 }
 .topcontainer {
      display: flex;
-     background: paleturquoise;
+     background-color: rgb(92, 243, 243);
      padding: 20px;
      justify-content:space-between;
+     border: 6px rgb(21, 134, 134);
+     border-radius: 10px;
+     border-style: groove;
 }
 .links{
-    border: 1px solid;
+    border: 5px groove;
+    border-radius: 10px;
     justify-content: flex-end;
     display: flex;
 }
@@ -28,14 +32,17 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     text-align: center;
+    align-items: center;
 }
 .buttonmain{
-    display: flex;
-    padding: 4px 8px;
-    margin: 12px auto;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 4px 2px;
     background-color: rgb(250, 236, 240);
     transition-duration: 0.5s;
     cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
     }
 .div1 img{
     width: 25%;
