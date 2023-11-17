@@ -4,6 +4,13 @@ body {
 button:hover {
     background-color: pink;
 }
+.menubutton {
+    padding: 8px 60px;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 .topcontainer {
      display: flex;
      background-color: rgb(92, 243, 243);
@@ -14,10 +21,15 @@ button:hover {
      border-style: groove;
 }
 .links{
-    border: 5px groove;
-    border-radius: 10px;
     justify-content: flex-end;
     display: flex;
+}
+.links button{
+    padding: 8px 4px;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 .login {
     margin-left: 20px;
@@ -38,7 +50,6 @@ h1{
     display: inline-block;
     padding: 10px 15px;
     margin: 4px 2px;
-    background-color: rgb(250, 236, 240);
     transition-duration: 0.5s;
     cursor: pointer;
     border-radius: 5px;
