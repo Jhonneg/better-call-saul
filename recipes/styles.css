@@ -16,17 +16,17 @@ h1{
     text-align: center;
 
 }
-.div1 button{
+button{
     display: block;
     padding: 4px 8px;
-    margin: 0 auto;
+    margin: 12px auto;
     background-color: rgb(250, 236, 240);
     transition-duration: 0.5s;
     cursor: pointer;
     }
-    .div1 button:hover {
+    button:hover {
         background-color: pink;
     }
 .div1 img{
-    width: 40%;
+    width: 25%;
 }
