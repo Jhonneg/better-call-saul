@@ -4,7 +4,7 @@ body {
 button:hover {
     background-color: pink;
 }
-.menubutton {
+.menu button {
     padding: 8px 60px;
     cursor: pointer;
     margin: 4px 2px;
@@ -31,10 +31,6 @@ button:hover {
     border-radius: 5px;
     text-decoration: none;
 }
-.login {
-    margin-left: 20px;
-}
-
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -46,7 +42,7 @@ h1{
     text-align: center;
     align-items: center;
 }
-.buttonmain{
+.div1 button{
     display: inline-block;
     padding: 10px 15px;
     margin: 4px 2px;
