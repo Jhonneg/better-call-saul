@@ -1,6 +1,28 @@
 body {
     background-color: rgb(255, 226, 226);
 }
+button:hover {
+    background-color: pink;
+}
+.topcontainer {
+     display: flex;
+     background: paleturquoise;
+     padding: 24px;
+     border: 4px  snow;
+     gap: 8px;
+     justify-content:space-between;
+}
+   
+.singup{
+    justify-content: end;
+}
+.topcontainer div{
+    flex: 1;
+}
+.topcontainer button{
+    cursor: pointer;
+}
+
 head {
     color: navajowhite;
     margin: auto;
@@ -14,18 +36,14 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     text-align: center;
-
 }
-button{
-    display: block;
+.buttonmain{
+    display: flex;
     padding: 4px 8px;
     margin: 12px auto;
     background-color: rgb(250, 236, 240);
     transition-duration: 0.5s;
     cursor: pointer;
-    }
-    button:hover {
-        background-color: pink;
     }
 .div1 img{
     width: 25%;
