@@ -1,56 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
-    background-color: rgb(255, 226, 226);
-}
-button:hover {
-    background-color: pink;
-}
-.menu button {
-    padding: 8px 60px;
-    cursor: pointer;
-    margin: 4px 2px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.topcontainer {
-     display: flex;
-     background-color: rgb(92, 243, 243);
-     padding: 20px;
-     justify-content:space-between;
-     border: 6px rgb(21, 134, 134);
-     border-radius: 10px;
-     border-style: groove;
-}
-.links{
-    justify-content: flex-end;
+    background-color: rgb(255, 255, 255);
     display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
 }
-.links button{
-    padding: 8px 4px;
-    cursor: pointer;
-    margin: 4px 2px;
-    border-radius: 5px;
-    text-decoration: none;
+
+.header{
+     display: flex;
+     background-color: rgb(250, 235, 193);
+     padding: 16px;
+     justify-content:space-between;
+     border-bottom-style: groove;
 }
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     
 }
-.div1{ 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.content{ 
     font-size: medium;
     text-align: center;
     align-items: center;
 }
-.div1 button{
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 4px 2px;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    border-radius: 5px;
+.content img{
+    width: 300px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+a{
     text-decoration: none;
-    }
-.div1 img{
-    width: 25%;
+    color: gray;
 }
